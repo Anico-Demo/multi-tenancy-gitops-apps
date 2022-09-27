@@ -23,4 +23,5 @@ oc create secret generic \
     --scope cluster-wide \
     --controller-name=${SEALED_SECRET_CONTOLLER_NAME} \
     --controller-namespace=${SEALED_SECRET_NAMESPACE} \
-    -o yaml > gitops-repo-pk-secret-${GITOPS_PK_SECRET_NAME}.yaml
+#    -o yaml > gitops-repo-pk-secret-${GITOPS_PK_SECRET_NAME}.yaml
+     -o yaml > git-ssh-pk-${GITOPS_PK_SECRET_NAME}.yaml
