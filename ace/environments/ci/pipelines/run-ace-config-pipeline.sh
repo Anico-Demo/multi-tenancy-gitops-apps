@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [ -z ${GIT_ORG} ]; then echo "Please set GIT_ORG when running script"; exit 1; fi
+#if [ -z ${GIT_ORG} ]; then echo "Please set GIT_ORG when running script"; exit 1; fi
 
 tkn pipeline start \
   -n ci \
